@@ -14,9 +14,9 @@ and Their Dependencie
 # Build Image
 ==> Docker build -t $OSName:version $Location_of_Dockerfile
 
-#Run Docker Container 
+# Run Docker Container 
 ==> Docker run -dit --name $AnyName --Privileged $OSName:version
 
-#Run Bash Inside The Container
+# Run Bash Inside The Container
 ==> Docker exec -it $nameofContainer bash
   Note : Use Sudo For Every Command 
