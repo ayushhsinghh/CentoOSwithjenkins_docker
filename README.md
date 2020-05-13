@@ -1,12 +1,18 @@
 # CentoOSwithjenkins_docker
 This is a Dockerfile of CentOS that has Jenkins and Docker Added With some Extra Packages
 
-Packages that will be Installed Are 
+Packages that will be Installed Are
+
 1.jenkins
+
 2.Java-11-Openjdk-src.x86_64
-3.Docker 
+
+3.Docker
+
 4.Git
+
 5.Wget
+
 5.sudo
 
 and Their Dependencie
@@ -19,4 +25,5 @@ and Their Dependencie
 
 # Run Bash Inside The Container
 ==> Docker exec -it $nameofContainer bash
+
   Note : Use Sudo For Every Command 
